@@ -1,0 +1,46 @@
+body{
+    width: 100vw;
+    height: 100 vh;
+    background-image: url(../assets/img/person.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    background-color: transparent !important;
+    padding: 15px;
+    transform: all 2s;
+}
+    .navbar-brand{
+        font-weight: bold;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding: 10px;
+        background-color: black;
+        border-radius: 10px;
+        color: yellow !important;
+    }
+    .nav-time{
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 0 10px;
+        padding: 10px;
+    }
+    .nav-link{
+        letter-spacing: 2px;
+font-size: 1.5em;
+font-weight: 700;
+color: #000;
+transition: all 1s;
+    }
+    .nav-link:hover{
+        background-color: #000;
+        border-radius: 15px;
+        color: yellow !important;
+    }
+    .navbar-brand:hover{
+        color: #fff;
+    }
+    .texto{
+        color: #fff;
+        font-size: 18px;
+    }
